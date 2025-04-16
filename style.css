@@ -23,4 +23,6 @@ h3 {
 
 textarea {
     border: none;
+    display: block;
+    width: 100%;
 }
