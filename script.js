@@ -37,4 +37,7 @@ function createTags(input) {
     
     tagsEl.innerHTML = ''
 
-    tags.forEach(tag => {}
+    tags.forEach(tag => {
+        const tagEl = document.createElement('span')
+        tagEl.classList.add('tag')
+}
